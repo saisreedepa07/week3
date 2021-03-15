@@ -1,0 +1,21 @@
+<html>
+<body>
+<script>
+let a, b, rest;
+[a, b] = [40, 70];
+console.log(a); 
+console.log(b); 
+[a, b, ...rest] = [40, 50, 60, 70, 80];
+console.log(a); 
+console.log(b); 
+console.log(rest); 
+({ a, b } = { a: 40, b: 70 });
+console.log(a); 
+console.log(b); 
+({a, b, ...rest} = {a: 40, b: 50, c: 60, d: 70});
+console.log(a); 
+console.log(b); 
+console.log(rest); 
+</script>
+</body>
+</html>
